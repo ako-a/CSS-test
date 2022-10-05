@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  /*余白や線を幅や高さに含める*/
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  /*メニューを右端に置く方法その１*/
+  padding: 0 2%;
+  align-items: center;
+  position: fixed;
+  /*ヘッダーの位置を固定*/
+  top: 0;
+  /*ヘッダーの位置を固定（上0）*/
+  left: 0;
+  /*ヘッダーの位置を左固定（左０）*/
+}
+
+h1 {
+  color: navy
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-left: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: navy;
+}
+
+nav {
+  margin-left: auto;
+  /*メニューを右端に置く方法その２*/
+}
+
+.relative {
+  Position: relative;
+}
+
+.blue-box {
+  display: inline-block;
+  background-color: navy;
+  height: 200px;
+  width: 80%;
+  margin-top: 450px;
+
+}
+
+.absolute__img img {
+  Width: 45%;
+  height: 70%;
+}
+
+img {
+  position: absolute;
+  top: 15%;
+  right: 0%;
+}
+
+p {
+  font-size: 60px;
+  position: absolute;
+  top: 320px;
+}
