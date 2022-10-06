@@ -1,7 +1,9 @@
 * {
-  box-sizing: border-box;
-  /*余白や線を幅や高さに含める*/
+  box-sizing: content-box;
 }
+
+
+
 
 body {
   background-color: #fff;
@@ -48,6 +50,12 @@ nav {
   /*メニューを右端に置く方法その２*/
 }
 
+
+main {
+  width: 100%;
+  min-width: 800px;
+}
+
 .relative {
   Position: relative;
 }
@@ -62,7 +70,7 @@ nav {
 }
 
 .absolute__img img {
-  Width: 45%;
+  Width: 50%;
   height: 70%;
 }
 
@@ -70,6 +78,7 @@ img {
   position: absolute;
   top: 15%;
   right: 0%;
+
 }
 
 p {
