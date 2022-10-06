@@ -1,5 +1,5 @@
 * {
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 
@@ -70,8 +70,9 @@ main {
 }
 
 .absolute__img img {
-  Width: 50%;
-  height: 70%;
+  Width: 800px;
+
+
 }
 
 img {
